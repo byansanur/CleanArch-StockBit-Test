@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tinder.scarlet:lifecycle-android:0.1.12@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/lifecycle-android/0.1.12/b73b6022a974bb190a08565db729067ca4ff49e/lifecycle-android-0.1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/lifecycle-android/0.1.12/676afe131725aefe2b6a0590d2a1328ab056e253/lifecycle-android-0.1.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

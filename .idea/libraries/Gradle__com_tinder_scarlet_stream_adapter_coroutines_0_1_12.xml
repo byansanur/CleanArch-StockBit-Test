@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tinder.scarlet:stream-adapter-coroutines:0.1.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/stream-adapter-coroutines/0.1.12/305bb422eb0e9522857cbcc8b275d8e0ebc66690/stream-adapter-coroutines-0.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/stream-adapter-coroutines/0.1.12/e8d4a916987d9d52e9acfa79307e1963c37feac2/stream-adapter-coroutines-0.1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/stream-adapter-coroutines/0.1.12/cfad959e10c03838db2c0abcb5fe4b6ca69853f8/stream-adapter-coroutines-0.1.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

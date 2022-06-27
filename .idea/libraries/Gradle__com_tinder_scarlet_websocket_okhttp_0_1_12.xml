@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tinder.scarlet:websocket-okhttp:0.1.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/websocket-okhttp/0.1.12/78f24fe65dd083ee6a130c488bff7b59f63f5810/websocket-okhttp-0.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/websocket-okhttp/0.1.12/3d386b5d8ede23476ad98695151d3d2ab89255cf/websocket-okhttp-0.1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/websocket-okhttp/0.1.12/2710de7785f70fa2866c75d24de2304e648e62c7/websocket-okhttp-0.1.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
