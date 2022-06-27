@@ -15,5 +15,5 @@ dependencies {
     implementation Libraries.scarlet
     implementation Libraries.shimmer
     implementation Libraries.swipeRefresh
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }

@@ -10,8 +10,6 @@ import androidx.navigation.fragment.FragmentNavigator
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.viewbinding.ViewBinding
-import com.google.android.material.snackbar.Snackbar
-import com.stockbit.common.extension.setupSnackbar
 import com.stockbit.common.utils.Event
 import com.stockbit.common.utils.NavigationCommand
 

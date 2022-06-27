@@ -3,8 +3,6 @@ package com.stockbit.remote.di
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.google.gson.Gson
 import com.stockbit.remote.BuildConfig
-import com.stockbit.remote.ExampleDatasource
-import com.stockbit.remote.ExampleService
 import com.stockbit.remote.datasource.RemoteDataSource
 import com.stockbit.remote.service.RemoteService
 import com.stockbit.remote.service.WebSocketService

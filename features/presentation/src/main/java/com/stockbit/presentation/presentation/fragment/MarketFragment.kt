@@ -1,4 +1,4 @@
-package com.stockbit.presentation.ui.fragment
+package com.stockbit.presentation.presentation.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.stockbit.common.base.BaseFragment
 import com.stockbit.presentation.R
-import com.stockbit.presentation.databinding.FragmentLoginBinding
+import com.stockbit.presentation.databinding.FragmentMarketBinding
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class LoginFragment : BaseFragment<FragmentLoginBinding>() {
+class MarketFragment : BaseFragment<FragmentMarketBinding>() {
 
 
     override fun onCreateView(
@@ -21,13 +21,13 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
+        return inflater.inflate(R.layout.fragment_market, container, false)
     }
 
     override fun initBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
-    ): FragmentLoginBinding {
+    ): FragmentMarketBinding {
         TODO("Not yet implemented")
     }
 

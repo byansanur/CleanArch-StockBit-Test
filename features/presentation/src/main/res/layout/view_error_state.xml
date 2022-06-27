@@ -16,8 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/tv_message"
-        android:tint="@color/colorYellow"
-        android:tintMode="src_atop"
         tools:ignore="UseAppTint" />
 
     <com.google.android.material.textview.MaterialTextView

@@ -7,16 +7,23 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.stockbit.hiring.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var navController: NavController
-    private lateinit var appBarConfiguration: AppBarConfiguration
+    private val navController by lazy { findNavController(R.id.nav_host_fragment) }
+    private val appBarConfiguration by lazy { AppBarConfiguration(navController.graph) }
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        configureNavController()
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        initView()
+    }
+
+    private fun initView() {
+        supportActionBar?.setDisplayShowTitleEnabled(false)
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -24,10 +31,4 @@ class MainActivity : AppCompatActivity() {
     }
 
     // ---
-
-    private fun configureNavController() {
-        navController = findNavController(com.stockbit.hiring.R.id.nav_host_fragment)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
-        setupActionBarWithNavController(navController, appBarConfiguration)
-    }
 }
