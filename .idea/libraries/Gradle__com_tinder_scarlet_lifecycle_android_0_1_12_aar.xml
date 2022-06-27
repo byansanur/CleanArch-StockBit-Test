@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.tinder.scarlet:lifecycle-android:0.1.12@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49f6684bc3210709f9ab798b08fad013/jetified-lifecycle-android-0.1.12/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/762048d78b652db52f60289d094bb89a/jetified-lifecycle-android-0.1.12/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/762048d78b652db52f60289d094bb89a/jetified-lifecycle-android-0.1.12/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/762048d78b652db52f60289d094bb89a/jetified-lifecycle-android-0.1.12/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tinder.scarlet/lifecycle-android/0.1.12/b73b6022a974bb190a08565db729067ca4ff49e/lifecycle-android-0.1.12-javadoc.jar!/" />

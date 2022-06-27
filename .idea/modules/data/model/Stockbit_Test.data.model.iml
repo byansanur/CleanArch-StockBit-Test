@@ -15,7 +15,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../../data/model/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93963b1303347405e451afa2f31a233a/jetified-kotlin-stdlib-jdk7-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/3ad620ae2e74f9c787d7413760fb5dab/jetified-kotlin-stdlib-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/49cfc3dd9d2b50474c0b0be4c8055fce/jetified-annotations-13.0.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/8758fdf01780242a9cf6714cc3d34645/jetified-kotlin-stdlib-common-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/01af69c4c3e2484fe0d2e66295e64b04/jetified-gson-2.8.5.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/d6a5c0d24b17212e2aa50cee68721ef3/room-runtime-2.3.0-api.jar:/Users/ratbyansa/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/e8b58b780c64b7ae26c5530c50b9372c/sqlite-framework-2.1.0-api.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/05c15fa228f748e56246ac3bb73fcbfd/sqlite-2.1.0-api.jar:/Users/ratbyansa/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/ratbyansa/Library/Android/sdk/platforms/android-30/android.jar:/Users/ratbyansa/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02546a2fa0d0a9f70bf54c1ee2a1e96a/jetified-viewbinding-4.0.1-api.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/78da8d070ecb940ec299f5bca06e86b2/room-runtime-2.3.0-api.jar:/Users/ratbyansa/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/96742efe05456853f11f6819f35c0254/sqlite-framework-2.1.0-api.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/185b6106d060657b1e570cadd81f1040/sqlite-2.1.0-api.jar:/Users/ratbyansa/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/b8b5517775b8853e2be0f625e9f2fa52/jetified-kotlin-stdlib-jdk7-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/b250f16df682fdc65bb7dd86f80b643a/jetified-kotlin-stdlib-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/b4d4ab11ebd45e0156bcdee3f9e7cfe5/jetified-annotations-13.0.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/b8158296a609d9b306b17d926bbb79e1/jetified-kotlin-stdlib-common-1.5.10.jar:/Users/ratbyansa/.gradle/caches/transforms-2/files-2.1/f25c356a4d0dada5d8afb508b888f2a3/jetified-gson-2.8.5.jar:/Users/ratbyansa/Library/Android/sdk/platforms/android-30/android.jar:/Users/ratbyansa/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="moduleName" value="model_debug" />
           <option name="languageVersion" value="1.6" />
@@ -71,6 +71,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: androidx.room:room-common:2.3.0" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: kaptGeneratedClasses">
         <CLASSES>
@@ -90,13 +91,13 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.room:room-common:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:4.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.room:room-runtime:2.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite-framework:2.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.sqlite:sqlite:2.1.0@aar" level="project" />

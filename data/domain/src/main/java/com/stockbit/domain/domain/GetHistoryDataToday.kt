@@ -1,4 +1,4 @@
-package com.sandbox.domain.domain
+package com.stockbit.domain.domain
 
 import com.stockbit.repository.repository.CryptoRepository
 

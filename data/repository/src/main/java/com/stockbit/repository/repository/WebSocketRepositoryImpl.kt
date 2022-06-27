@@ -6,9 +6,9 @@ import com.stockbit.remote.datasource.RemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.consumeAsFlow
 
-class SocketRepositoryImpl(
+class WebSocketRepositoryImpl(
     private val dataSource: RemoteDataSource
-) : SocketRepository {
+) : WebSocketRepository {
     override fun connectToSocket(request: SubscriptionRequest) = dataSource.connectToWebSocket(request)
 
     override fun receiveResponse(): Flow<TickerResponse> = dataSource.receiveResponse().consumeAsFlow()

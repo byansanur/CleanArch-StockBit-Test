@@ -1,7 +1,7 @@
-package com.sandbox.domain.domain
+package com.stockbit.domain.domain
 
-import com.stockbit.repository.repository.SocketRepository
+import com.stockbit.repository.repository.WebSocketRepository
 
-class ReceiveResponseUseCase(private val repo: SocketRepository) {
+class ReceiveResponseUseCase(private val repo: WebSocketRepository) {
     operator fun invoke() = repo.receiveResponse()
 }

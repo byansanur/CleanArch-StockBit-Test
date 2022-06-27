@@ -1,9 +1,9 @@
-package com.sandbox.domain.di
+package com.stockbit.domain.di
 
-import com.sandbox.domain.domain.ConnectToWebSocketUseCase
-import com.sandbox.domain.domain.GetHistoryDataToday
-import com.sandbox.domain.domain.GetTopTotalVolumeFullUseCase
-import com.sandbox.domain.domain.ReceiveResponseUseCase
+import com.stockbit.domain.domain.ConnectToWebSocketUseCase
+import com.stockbit.domain.domain.GetHistoryDataToday
+import com.stockbit.domain.domain.GetTopTotalVolumeFullUseCase
+import com.stockbit.domain.domain.ReceiveResponseUseCase
 import org.koin.dsl.module
 
 val domainModule = module {

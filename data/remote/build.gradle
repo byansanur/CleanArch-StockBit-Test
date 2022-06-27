@@ -2,6 +2,14 @@ apply plugin: 'com.android.library'
 apply from: '../../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
 
+android {
+    defaultConfig {
+        buildConfigField "String", "API_KEY", '"03c22c5d77c868cb4db9150bab2ef2cb9329d20284b5af83287c18d9a07cc5fd"'
+        buildConfigField "String", "WEBSOCKET_BASE_URL", '"wss://streamer.cryptocompare.com/v2"'
+        buildConfigField "String", "API_BASE_URL", '"https://min-api.cryptocompare.com/data/"'
+    }
+}
+
 dependencies {
     // KOTLIN
     implementation KotlinLibraries.kotlin
@@ -13,6 +21,13 @@ dependencies {
     implementation Libraries.retrofit
     implementation Libraries.retrofitGsonConverter
     implementation Libraries.httpLoggingInterceptor
+    implementation Libraries.scarlet
+    implementation Libraries.scarletWebSocket
+    implementation Libraries.scarletAdapter
+    implementation Libraries.scarletCoroutine
+    implementation Libraries.scarletLifecycle
+    debugImplementation Libraries.chucker
+    releaseImplementation Libraries.chuckerNoOp
     // DATA MODULE
     implementation project(Modules.model)
     // TEST

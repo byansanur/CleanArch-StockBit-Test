@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.fragment:fragment-testing:1.1.0-alpha06@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41c31fe2d81639a0a8df2955e583c5b6/jetified-fragment-testing-1.1.0-alpha06/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41c31fe2d81639a0a8df2955e583c5b6/jetified-fragment-testing-1.1.0-alpha06/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/41c31fe2d81639a0a8df2955e583c5b6/jetified-fragment-testing-1.1.0-alpha06/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0de5f4594594cc294c71c0873eb0e337/jetified-fragment-testing-1.1.0-alpha06/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0de5f4594594cc294c71c0873eb0e337/jetified-fragment-testing-1.1.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0de5f4594594cc294c71c0873eb0e337/jetified-fragment-testing-1.1.0-alpha06/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

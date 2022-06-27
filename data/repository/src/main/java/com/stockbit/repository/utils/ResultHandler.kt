@@ -1,6 +1,6 @@
 package com.stockbit.repository.utils
 
-import com.stockbit.model.Result
+import com.stockbit.model.dto.Result
 import com.stockbit.repository.AppDispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

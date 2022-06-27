@@ -10,7 +10,6 @@ android {
     dataBinding {
         enabled true
     }
-    dynamicFeatures = []
 }
 
 dependencies {
@@ -20,6 +19,9 @@ dependencies {
     implementation project(Modules.local)
     implementation project(Modules.remote)
     implementation project(Modules.repository)
+    implementation project(Modules.domain)
+    // Features
+    implementation project(Modules.presentation)
     // NAVIGATION
     implementation project(Modules.navigation)
     // KOIN
@@ -30,5 +32,5 @@ dependencies {
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation Libraries.material
 }
