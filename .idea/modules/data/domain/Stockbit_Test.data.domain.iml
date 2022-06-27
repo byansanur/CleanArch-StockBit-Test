@@ -65,6 +65,10 @@
     <output-test url="file://$MODULE_DIR$/../../../../data/domain/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../data/domain">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../data/domain/src/test/java" isTestSource="true" />

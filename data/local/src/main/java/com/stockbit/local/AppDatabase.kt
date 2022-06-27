@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.stockbit.local.converter.Converters
 import com.stockbit.local.dao.ExampleDao
-import com.stockbit.model.ExampleModel
+import com.stockbit.model.dto.ExampleModel
 
 @Database(entities = [ExampleModel::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)

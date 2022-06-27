@@ -1,4 +1,4 @@
-package com.stockbit.assignment
+package com.stockbit.presentation
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.stockbit.assignment
+package com.stockbit.presentation
 
 import org.junit.Test
 

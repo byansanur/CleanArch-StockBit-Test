@@ -22,7 +22,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-fun createRemoteModule(baseUrl: String) = module {
+val remoteModule = module {
 
     factory<Interceptor> {
         HttpLoggingInterceptor()

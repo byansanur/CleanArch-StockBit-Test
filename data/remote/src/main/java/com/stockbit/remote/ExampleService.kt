@@ -1,6 +1,6 @@
 package com.stockbit.remote
 
-import com.stockbit.model.ExampleModel
+import com.stockbit.model.dto.ExampleModel
 import retrofit2.Response
 import retrofit2.http.GET
 

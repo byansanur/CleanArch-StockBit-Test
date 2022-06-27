@@ -1,4 +1,4 @@
-package com.stockbit.model
+package com.stockbit.model.dto
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
