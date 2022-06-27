@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#E4D238</color>
+    <color name="green">#2bbd7e</color>
+    <color name="red">#CD3622</color>
+    <color name="black">#292929</color>
+    <color name="colorFacebookIcon">#4267B2</color>
+    <color name="colorSeparator">#eceff1</color>
+</resources>

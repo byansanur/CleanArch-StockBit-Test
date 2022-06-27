@@ -2,6 +2,7 @@ package com.stockbit.remote.di
 
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import com.google.gson.Gson
+import com.stockbit.remote.BuildConfig
 import com.stockbit.remote.ExampleDatasource
 import com.stockbit.remote.ExampleService
 import com.stockbit.remote.datasource.RemoteDataSource
@@ -55,14 +56,14 @@ val remoteModule = module {
     single {
         Retrofit.Builder()
             .client(get())
-            .baseUrl("https://min-api.cryptocompare.com/data/")
+            .baseUrl(BuildConfig.API_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(get<Gson>()))
             .build()
     }
 
     single {
         Scarlet.Builder()
-            .webSocketFactory(get<OkHttpClient>().newWebSocketFactory("wss://streamer.cryptocompare.com/v2"))
+            .webSocketFactory(get<OkHttpClient>().newWebSocketFactory(BuildConfig.WEBSOCKET_BASE_URL))
             .addMessageAdapterFactory(GsonMessageAdapter.Factory(get()))
             .addStreamAdapterFactory(CoroutinesStreamAdapterFactory())
             .backoffStrategy(
